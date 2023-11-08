@@ -1,4 +1,4 @@
-#include "Device.hpp"
+#include <Device.hpp>
 #include <iostream>
 //class User;
 class Device;//ublic class Device;
@@ -28,7 +28,7 @@ Device::~Device(){
     std::cout<<"Device < "<<this->SN<<" > has been deleted\n";
 }
 bool Device::operator==(Device d){
-    if((d.device_type == device_type)&&(d.SN == SN)) 
+    if((d.getType() == device_type)&&(d.getSN() == SN)) 
         return true;
     else return false;
 }

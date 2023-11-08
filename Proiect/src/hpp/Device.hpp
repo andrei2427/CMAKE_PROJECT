@@ -1,7 +1,7 @@
 #ifndef DEVICE_HPP
 #define DEVICE_HPP
 
-//namespace BookingAPP {
+/*namespace BookingAPP {*/
 
     class Device{
 
@@ -35,6 +35,6 @@
 
 };
 
-//} // namespace BookingAPP
+/*} // namespace BookingAPP*/
 
 #endif // DEVICE__APP

@@ -8,8 +8,8 @@ void verify_state(Device d){
 }
 int main(){
     char a[]  = { 'A' };
-    char b[]  = { 'A' };
-    char c[]  = { 'A' };
+    char b[]  = { 'B' };
+    char c[]  = { 'C' };
     
 
     Device d1(1111,0,1), d2(2222,0,2), d3(3333,0,3);
@@ -27,8 +27,8 @@ int main(){
     verify_state(d4);
     
     Device test(1111,0,0);
-    if( d1 == d2) std::cout<<"true";
-    if(d1 == test) std::cout<<"true";
+    if( d1 == d2 ) std::cout<<"####### d1==d2 ########\n";
+    if( d1 == test ) std::cout<<"####### d1==test #######\n";
 
     return 0;
 }
