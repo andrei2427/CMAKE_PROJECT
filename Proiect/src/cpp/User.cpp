@@ -22,8 +22,8 @@ User::User( User&& user){
     user.nume = nullptr;
 }
 User::~User(){
-
-    delete [] this->nume;
+    
+    delete []nume;
     std::cout<<"User <  >deleted\n";
 }
 
