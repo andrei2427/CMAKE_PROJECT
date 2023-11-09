@@ -17,20 +17,15 @@ else()
     endif()    
 endif()
 
-#add_subdirectory(hpp)
 add_subdirectory(cpp)
 add_subdirectory(main)
 
 #target_link_libraries(${myproject} lib1, lib2)
-
-# Define the executable
-# add_executable(${PROJECT_NAME}
-              # src/Device.hpp 
-              # src/User.hpp 
-              # src/Device.cpp 
-              # src/User.cpp 
-              # src/main.cpp 
-              # )
+#add_executable(${PROJECT_NAME}
+  #            cpp/Device.cpp 
+    #          cpp/User.cpp 
+      #        main/main.cpp 
+        #       )
           
 
 #set(myfiles src/Device.hpp, src/User.hpp ,src/Device.cpp ,src/User.cpp ,src/Main.cpp )

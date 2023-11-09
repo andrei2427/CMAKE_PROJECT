@@ -97,19 +97,35 @@ cpp/CMakeFiles/header.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/header.dir/User.cpp.s"
 	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp -o CMakeFiles/header.dir/User.cpp.s
 
+cpp/CMakeFiles/header.dir/Laptop.cpp.o: cpp/CMakeFiles/header.dir/flags.make
+cpp/CMakeFiles/header.dir/Laptop.cpp.o: src/cpp/Laptop.cpp
+cpp/CMakeFiles/header.dir/Laptop.cpp.o: cpp/CMakeFiles/header.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object cpp/CMakeFiles/header.dir/Laptop.cpp.o"
+	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT cpp/CMakeFiles/header.dir/Laptop.cpp.o -MF CMakeFiles/header.dir/Laptop.cpp.o.d -o CMakeFiles/header.dir/Laptop.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Laptop.cpp
+
+cpp/CMakeFiles/header.dir/Laptop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/header.dir/Laptop.cpp.i"
+	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Laptop.cpp > CMakeFiles/header.dir/Laptop.cpp.i
+
+cpp/CMakeFiles/header.dir/Laptop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/header.dir/Laptop.cpp.s"
+	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Laptop.cpp -o CMakeFiles/header.dir/Laptop.cpp.s
+
 # Object files for target header
 header_OBJECTS = \
 "CMakeFiles/header.dir/Device.cpp.o" \
-"CMakeFiles/header.dir/User.cpp.o"
+"CMakeFiles/header.dir/User.cpp.o" \
+"CMakeFiles/header.dir/Laptop.cpp.o"
 
 # External object files for target header
 header_EXTERNAL_OBJECTS =
 
 cpp/libheader.a: cpp/CMakeFiles/header.dir/Device.cpp.o
 cpp/libheader.a: cpp/CMakeFiles/header.dir/User.cpp.o
+cpp/libheader.a: cpp/CMakeFiles/header.dir/Laptop.cpp.o
 cpp/libheader.a: cpp/CMakeFiles/header.dir/build.make
 cpp/libheader.a: cpp/CMakeFiles/header.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libheader.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libheader.a"
 	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && $(CMAKE_COMMAND) -P CMakeFiles/header.dir/cmake_clean_target.cmake
 	cd /home/cmake/CMAKE_PROJECT/Proiect/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/header.dir/link.txt --verbose=$(VERBOSE)
 

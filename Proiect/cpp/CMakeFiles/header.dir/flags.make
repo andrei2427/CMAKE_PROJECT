@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cmake/CMAKE_PROJECT/Proiect/src/hpp
+CXX_INCLUDES = -I/home/cmake/CMAKE_PROJECT/Proiect/src/hpp -I/cpp
 
 CXX_FLAGS = -std=c++14
 

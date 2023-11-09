@@ -114,12 +114,12 @@ main/clean: main/CMakeFiles/main_builder.dir/clean
 cpp/CMakeFiles/header.dir/all:
 	$(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/depend
 	$(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=1,2,3 "Built target header"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=1,2,3,4 "Built target header"
 .PHONY : cpp/CMakeFiles/header.dir/all
 
 # Build rule for subdir invocation for target.
 cpp/CMakeFiles/header.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp/CMakeFiles/header.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 0
 .PHONY : cpp/CMakeFiles/header.dir/rule
@@ -140,12 +140,12 @@ cpp/CMakeFiles/header.dir/clean:
 main/CMakeFiles/main_builder.dir/all: cpp/CMakeFiles/header.dir/all
 	$(MAKE) $(MAKESILENT) -f main/CMakeFiles/main_builder.dir/build.make main/CMakeFiles/main_builder.dir/depend
 	$(MAKE) $(MAKESILENT) -f main/CMakeFiles/main_builder.dir/build.make main/CMakeFiles/main_builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=4,5 "Built target main_builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=5,6 "Built target main_builder"
 .PHONY : main/CMakeFiles/main_builder.dir/all
 
 # Build rule for subdir invocation for target.
 main/CMakeFiles/main_builder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main/CMakeFiles/main_builder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles 0
 .PHONY : main/CMakeFiles/main_builder.dir/rule

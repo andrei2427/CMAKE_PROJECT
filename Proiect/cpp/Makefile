@@ -154,6 +154,30 @@ Device.cpp.s:
 	cd /home/cmake/CMAKE_PROJECT/Proiect && $(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/Device.cpp.s
 .PHONY : Device.cpp.s
 
+Laptop.o: Laptop.cpp.o
+.PHONY : Laptop.o
+
+# target to build an object file
+Laptop.cpp.o:
+	cd /home/cmake/CMAKE_PROJECT/Proiect && $(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/Laptop.cpp.o
+.PHONY : Laptop.cpp.o
+
+Laptop.i: Laptop.cpp.i
+.PHONY : Laptop.i
+
+# target to preprocess a source file
+Laptop.cpp.i:
+	cd /home/cmake/CMAKE_PROJECT/Proiect && $(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/Laptop.cpp.i
+.PHONY : Laptop.cpp.i
+
+Laptop.s: Laptop.cpp.s
+.PHONY : Laptop.s
+
+# target to generate assembly for a file
+Laptop.cpp.s:
+	cd /home/cmake/CMAKE_PROJECT/Proiect && $(MAKE) $(MAKESILENT) -f cpp/CMakeFiles/header.dir/build.make cpp/CMakeFiles/header.dir/Laptop.cpp.s
+.PHONY : Laptop.cpp.s
+
 User.o: User.cpp.o
 .PHONY : User.o
 
@@ -190,6 +214,9 @@ help:
 	@echo "... Device.o"
 	@echo "... Device.i"
 	@echo "... Device.s"
+	@echo "... Laptop.o"
+	@echo "... Laptop.i"
+	@echo "... Laptop.s"
 	@echo "... User.o"
 	@echo "... User.i"
 	@echo "... User.s"
