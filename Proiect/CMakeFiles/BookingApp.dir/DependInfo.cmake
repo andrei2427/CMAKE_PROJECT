@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cmake/CMAKE_PROJECT/Proiect/src/Device.cpp" "CMakeFiles/BookingApp.dir/Device.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/Device.cpp.o.d"
-  "/home/cmake/CMAKE_PROJECT/Proiect/src/User.cpp" "CMakeFiles/BookingApp.dir/User.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/User.cpp.o.d"
-  "/home/cmake/CMAKE_PROJECT/Proiect/src/main.cpp" "CMakeFiles/BookingApp.dir/main.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/main.cpp.o.d"
+  "/home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp" "CMakeFiles/BookingApp.dir/cpp/Device.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/cpp/Device.cpp.o.d"
+  "/home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp" "CMakeFiles/BookingApp.dir/cpp/User.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/cpp/User.cpp.o.d"
+  "/home/cmake/CMAKE_PROJECT/Proiect/src/main/main.cpp" "CMakeFiles/BookingApp.dir/main/main.cpp.o" "gcc" "CMakeFiles/BookingApp.dir/main/main.cpp.o.d"
   )
 
 # Targets to which this target links.

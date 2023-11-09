@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/header.dir/Device.cpp.o"
   "CMakeFiles/header.dir/Device.cpp.o.d"
+  "CMakeFiles/header.dir/Laptop.cpp.o"
+  "CMakeFiles/header.dir/Laptop.cpp.o.d"
   "CMakeFiles/header.dir/User.cpp.o"
   "CMakeFiles/header.dir/User.cpp.o.d"
   "libheader.a"

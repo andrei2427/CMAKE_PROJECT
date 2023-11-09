@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp" "cpp/CMakeFiles/header.dir/Device.cpp.o" "gcc" "cpp/CMakeFiles/header.dir/Device.cpp.o.d"
+  "/home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Laptop.cpp" "cpp/CMakeFiles/header.dir/Laptop.cpp.o" "gcc" "cpp/CMakeFiles/header.dir/Laptop.cpp.o.d"
   "/home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp" "cpp/CMakeFiles/header.dir/User.cpp.o" "gcc" "cpp/CMakeFiles/header.dir/User.cpp.o.d"
   )
 

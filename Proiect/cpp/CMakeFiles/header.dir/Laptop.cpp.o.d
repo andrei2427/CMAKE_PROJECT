@@ -1,8 +1,8 @@
-CMakeFiles/BookingApp.dir/main.cpp.o: \
- /home/cmake/CMAKE_PROJECT/Proiect/src/main.cpp \
+cpp/CMakeFiles/header.dir/Laptop.cpp.o: \
+ /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Laptop.cpp \
  /usr/include/stdc-predef.h \
- /home/cmake/CMAKE_PROJECT/Proiect/src/User.hpp \
- /home/cmake/CMAKE_PROJECT/Proiect/src/Device.hpp \
+ /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp \
+ /home/cmake/CMAKE_PROJECT/Proiect/src/hpp/Device.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

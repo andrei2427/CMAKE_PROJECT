@@ -2,6 +2,7 @@
 #include <iostream> 
 #include <string>
 #include <cstring>
+#include <iostream>
 User::User(int id, char* nume){ 
     this->id = id;
     this->nume = nume;
@@ -40,4 +41,7 @@ int User::getID(){
 }
 char* User::getNume(){
     return this->nume;
+}
+void User::printID(){
+    std::cout<<"Display user "<< this->getID()<<"\n";
 }

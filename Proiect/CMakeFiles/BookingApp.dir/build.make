@@ -69,60 +69,60 @@ include CMakeFiles/BookingApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BookingApp.dir/flags.make
 
-CMakeFiles/BookingApp.dir/Device.cpp.o: CMakeFiles/BookingApp.dir/flags.make
-CMakeFiles/BookingApp.dir/Device.cpp.o: src/Device.cpp
-CMakeFiles/BookingApp.dir/Device.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BookingApp.dir/Device.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/Device.cpp.o -MF CMakeFiles/BookingApp.dir/Device.cpp.o.d -o CMakeFiles/BookingApp.dir/Device.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/Device.cpp
+CMakeFiles/BookingApp.dir/cpp/Device.cpp.o: CMakeFiles/BookingApp.dir/flags.make
+CMakeFiles/BookingApp.dir/cpp/Device.cpp.o: src/cpp/Device.cpp
+CMakeFiles/BookingApp.dir/cpp/Device.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BookingApp.dir/cpp/Device.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/cpp/Device.cpp.o -MF CMakeFiles/BookingApp.dir/cpp/Device.cpp.o.d -o CMakeFiles/BookingApp.dir/cpp/Device.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp
 
-CMakeFiles/BookingApp.dir/Device.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/Device.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/Device.cpp > CMakeFiles/BookingApp.dir/Device.cpp.i
+CMakeFiles/BookingApp.dir/cpp/Device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/cpp/Device.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp > CMakeFiles/BookingApp.dir/cpp/Device.cpp.i
 
-CMakeFiles/BookingApp.dir/Device.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/Device.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/Device.cpp -o CMakeFiles/BookingApp.dir/Device.cpp.s
+CMakeFiles/BookingApp.dir/cpp/Device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/cpp/Device.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/Device.cpp -o CMakeFiles/BookingApp.dir/cpp/Device.cpp.s
 
-CMakeFiles/BookingApp.dir/User.cpp.o: CMakeFiles/BookingApp.dir/flags.make
-CMakeFiles/BookingApp.dir/User.cpp.o: src/User.cpp
-CMakeFiles/BookingApp.dir/User.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BookingApp.dir/User.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/User.cpp.o -MF CMakeFiles/BookingApp.dir/User.cpp.o.d -o CMakeFiles/BookingApp.dir/User.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/User.cpp
+CMakeFiles/BookingApp.dir/cpp/User.cpp.o: CMakeFiles/BookingApp.dir/flags.make
+CMakeFiles/BookingApp.dir/cpp/User.cpp.o: src/cpp/User.cpp
+CMakeFiles/BookingApp.dir/cpp/User.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BookingApp.dir/cpp/User.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/cpp/User.cpp.o -MF CMakeFiles/BookingApp.dir/cpp/User.cpp.o.d -o CMakeFiles/BookingApp.dir/cpp/User.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp
 
-CMakeFiles/BookingApp.dir/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/User.cpp > CMakeFiles/BookingApp.dir/User.cpp.i
+CMakeFiles/BookingApp.dir/cpp/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/cpp/User.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp > CMakeFiles/BookingApp.dir/cpp/User.cpp.i
 
-CMakeFiles/BookingApp.dir/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/User.cpp -o CMakeFiles/BookingApp.dir/User.cpp.s
+CMakeFiles/BookingApp.dir/cpp/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/cpp/User.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/cpp/User.cpp -o CMakeFiles/BookingApp.dir/cpp/User.cpp.s
 
-CMakeFiles/BookingApp.dir/main.cpp.o: CMakeFiles/BookingApp.dir/flags.make
-CMakeFiles/BookingApp.dir/main.cpp.o: src/main.cpp
-CMakeFiles/BookingApp.dir/main.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BookingApp.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/main.cpp.o -MF CMakeFiles/BookingApp.dir/main.cpp.o.d -o CMakeFiles/BookingApp.dir/main.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/main.cpp
+CMakeFiles/BookingApp.dir/main/main.cpp.o: CMakeFiles/BookingApp.dir/flags.make
+CMakeFiles/BookingApp.dir/main/main.cpp.o: src/main/main.cpp
+CMakeFiles/BookingApp.dir/main/main.cpp.o: CMakeFiles/BookingApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BookingApp.dir/main/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BookingApp.dir/main/main.cpp.o -MF CMakeFiles/BookingApp.dir/main/main.cpp.o.d -o CMakeFiles/BookingApp.dir/main/main.cpp.o -c /home/cmake/CMAKE_PROJECT/Proiect/src/main/main.cpp
 
-CMakeFiles/BookingApp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/main.cpp > CMakeFiles/BookingApp.dir/main.cpp.i
+CMakeFiles/BookingApp.dir/main/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BookingApp.dir/main/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/CMAKE_PROJECT/Proiect/src/main/main.cpp > CMakeFiles/BookingApp.dir/main/main.cpp.i
 
-CMakeFiles/BookingApp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/main.cpp -o CMakeFiles/BookingApp.dir/main.cpp.s
+CMakeFiles/BookingApp.dir/main/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BookingApp.dir/main/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/CMAKE_PROJECT/Proiect/src/main/main.cpp -o CMakeFiles/BookingApp.dir/main/main.cpp.s
 
 # Object files for target BookingApp
 BookingApp_OBJECTS = \
-"CMakeFiles/BookingApp.dir/Device.cpp.o" \
-"CMakeFiles/BookingApp.dir/User.cpp.o" \
-"CMakeFiles/BookingApp.dir/main.cpp.o"
+"CMakeFiles/BookingApp.dir/cpp/Device.cpp.o" \
+"CMakeFiles/BookingApp.dir/cpp/User.cpp.o" \
+"CMakeFiles/BookingApp.dir/main/main.cpp.o"
 
 # External object files for target BookingApp
 BookingApp_EXTERNAL_OBJECTS =
 
-BookingApp: CMakeFiles/BookingApp.dir/Device.cpp.o
-BookingApp: CMakeFiles/BookingApp.dir/User.cpp.o
-BookingApp: CMakeFiles/BookingApp.dir/main.cpp.o
+BookingApp: CMakeFiles/BookingApp.dir/cpp/Device.cpp.o
+BookingApp: CMakeFiles/BookingApp.dir/cpp/User.cpp.o
+BookingApp: CMakeFiles/BookingApp.dir/main/main.cpp.o
 BookingApp: CMakeFiles/BookingApp.dir/build.make
 BookingApp: CMakeFiles/BookingApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable BookingApp"
