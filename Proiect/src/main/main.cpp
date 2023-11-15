@@ -12,7 +12,7 @@ int main(){
     char c[]  = { 'C' };
     
 
-    /*Device d1(1111,0,1), d2(2222,0,2), d3(3333,0,3);
+    Device d1(1111,0,1), d2(2222,0,2), d3(3333,0,3);
     User user1(1,a), user2(2,b), user3(3,c);
 
     // in case we have two users with the same name(profession) we can copy the object and modify the id;
@@ -32,5 +32,5 @@ int main(){
     std::cout<<"##############\n";
     user1.printID();
     std::cout<<"##############\n";
-    */return 0;
+    return 0;
 }
