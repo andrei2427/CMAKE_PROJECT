@@ -1,9 +1,9 @@
 add_executable(
-    main_builder
+   ${PROJECT_NAME}
     main.cpp
 )
 
-target_link_libraries(main_builder PRIVATE header)
+target_link_libraries(${PROJECT_NAME} PRIVATE header)
 
 #target_include_directories(main_builder PUBLIC "${PROJECT_SOURCE_DIR}/hpp")
-#target_include_directories(main_builder PUBLIC "${PROJECT_SOURCE_DIR}/cpp")
+#target_include_directories(main_builder PUBLIC "${PROJECT_SOURCE_DIR}/cpp")cd 

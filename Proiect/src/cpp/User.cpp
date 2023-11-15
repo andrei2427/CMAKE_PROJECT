@@ -24,7 +24,7 @@ User::User( User&& user){
 }
 User::~User(){
     
-    delete []nume;
+    //delete []nume;
     std::cout<<"User <  >deleted\n";
 }
 

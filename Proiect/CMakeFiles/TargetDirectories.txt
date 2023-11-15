@@ -1,8 +1,0 @@
-/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles/edit_cache.dir
-/home/cmake/CMAKE_PROJECT/Proiect/CMakeFiles/rebuild_cache.dir
-/home/cmake/CMAKE_PROJECT/Proiect/cpp/CMakeFiles/header.dir
-/home/cmake/CMAKE_PROJECT/Proiect/cpp/CMakeFiles/edit_cache.dir
-/home/cmake/CMAKE_PROJECT/Proiect/cpp/CMakeFiles/rebuild_cache.dir
-/home/cmake/CMAKE_PROJECT/Proiect/main/CMakeFiles/main_builder.dir
-/home/cmake/CMAKE_PROJECT/Proiect/main/CMakeFiles/edit_cache.dir
-/home/cmake/CMAKE_PROJECT/Proiect/main/CMakeFiles/rebuild_cache.dir

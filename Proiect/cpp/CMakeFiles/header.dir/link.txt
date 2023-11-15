@@ -1,2 +1,0 @@
-/usr/bin/ar qc libheader.a CMakeFiles/header.dir/Device.cpp.o CMakeFiles/header.dir/User.cpp.o CMakeFiles/header.dir/Laptop.cpp.o
-/usr/bin/ranlib libheader.a
