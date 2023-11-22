@@ -6,6 +6,7 @@ class Base_User{
     public:
         virtual void printID() = 0; 
 };
+
 class User : public Base_User{
     private:
         int id;

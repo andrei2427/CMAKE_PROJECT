@@ -1,8 +1,8 @@
-#include "User.hpp"
+#include <User.hpp>
 #include <iostream> 
 #include <string>
 #include <cstring>
-#include <iostream>
+
 User::User(int id, char* nume){ 
     this->id = id;
     this->nume = nume;
